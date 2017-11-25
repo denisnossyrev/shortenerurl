@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #262216;
+    font-size: 1em;
+    color: #b0a18e;
+}
+
+#app {
+    width: 70%;
+    max-width: 53.125rem;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+}
+
+h1, a {
+    text-transform: uppercase;
+}
+
+input, textarea {
+    background: #b0a18e;
+    border: 4px solid transparent;
+    transition: border .9s ease-in-out;
+}
+
+input, 
+a, 
+textarea {
+    outline: none;
+    color: #49412c;
+}
+
+input:focus,
+textarea:focus {
+    border: 4px solid #97743a;
+}
+
+
+section ul {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+section ul li {
+    margin: 10px 0;
+}
+
+
+section ul li input {
+    width: 100%;
+    height: 2.8125rem; /* 45px */
+}
+
+section ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 50%;
+    text-decoration: none;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    transition: border .5s ease-out;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+   color: #b0a18e;
+}
+
+a:hover {
+    border-top: 1px solid #97743a;
+    border-bottom: 1px solid #97743a;
+}
+
+
+
+section textarea {
+    width: 100%;
+    resize: none;
+    text-align: justify;
+    padding: 2px 5px;
+}
+
+
+
+
